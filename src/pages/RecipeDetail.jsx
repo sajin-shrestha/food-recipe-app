@@ -53,9 +53,9 @@ const RecipeDetail = () => {
   }
   return (
     <div className="w-full">
-      <Header title={recipe?.label} image={recipe?.image} />
+      <Header id="detail" title={recipe?.label} image={recipe?.image} />
 
-      <div id="detail" className="w-full px-4 lg:px-20 pt-5">
+      <div  className="w-full px-4 lg:px-20 pt-5">
         <div className="flex gap-10 items-center justify-center px-4">
           <div className="flex flex-col justify-between">
             <span className="text-white text-center border border-gray-500 py-1.5 px-2 rounded-full mb-2">
