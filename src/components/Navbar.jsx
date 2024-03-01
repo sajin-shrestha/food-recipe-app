@@ -34,7 +34,7 @@ const Navbar = () => {
             <a href="/#recipes">Explore</a>
           </li>
           <li>
-            <a href="#">Favorites</a>
+            <a href="/#recipes">Favorites</a>
           </li>
         </ul>
 
